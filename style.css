@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.parent{
+    height: 50%;
+    width: 50%;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+}
+.child1{
+    height: 100%;
+    width: 50%;
+    background-color: lightblue;
+}
+.child2{
+    height: 100%;
+    width: 50%;
+    background-color: lightcoral;
+}
+.parent1{
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    gap: 5px;
+}
+.box{
+    height: 80%;
+    width: 40%;
+    background-color: lightblue;  
+    display: flex;
+    align-items: flex-end;
+}
+.box1{
+    height: 40%;
+    width: 40%;
+    background-color: lightgreen;
+
+}
+.boxx{
+    height: 80%;
+    width: 40%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: end;
+}
+.box2{
+    height: 40%;
+    width: 40%;
+    background-color: lightgreen;
+}
+.parentt{
+    height: 50%;
+    width: 50%;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+}
+.boox1{
+    height: 100%;
+    width: 40%;
+    background-color: skyblue;
+}
+.boox2{
+    height: 100%;
+    width: 40%;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boox3{
+    height: 100%;
+    width: 40%;
+    background-color: skyblue;
+}
+.booox{
+    height: 60%;
+    width: 20%;
+    background-color: darkred;
+}
+.pparent{
+    height: 50%;
+    width: 50%;
+    gap: 5px;
+    display: flex;
+    justify-content: center;  
+}
+.bbox1{
+    height: 100%;
+    width: 25%;
+    background-color: skyblue;
+}
+.bbox2{
+    height: 100%;
+    width: 25%;
+    background-color: yellow;
+}
+.bbox3{
+    height: 100%;
+    width: 25%;
+    background-color: skyblue;
+}
+.pparent1{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.bbox4{
+    height: 100%;
+    width: 100%;
+    background-color: darkred;
+}
+.bbox5{
+    height: 100%;
+    width: 100%;
+    background-color: darkslateblue;    
+}
+
